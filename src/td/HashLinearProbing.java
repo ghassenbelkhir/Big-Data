@@ -2,10 +2,10 @@ package td;
 
 public class HashLinearProbing {
 
-	final int MAX;
-	char[] keys;
-	int[] values;
-	int elements;
+	private final int MAX;
+	private char[] keys;
+	private int[] values;
+	private int elements;
 
 
 	public HashLinearProbing(int MAX){
